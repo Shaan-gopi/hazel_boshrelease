@@ -1,0 +1,10 @@
+FROM fab-ci-remote-agent:443/hazelcast1
+CMD mkdir -p /data/builds
+CMD mkdir -p /home/apcuser/apps/alcatraz_cache
+COPY alcatraz_cache*.zip /data/builds/
+COPY sdet_conf.tar /data/builds/
+COPY currentbuild.sh /data/builds/
+COPY start_hazelcast.sh /home/apcuser/
+COPY zookeeper.cfg /home/apcuser/apps/alcatraz_cache/
+COPY product-build.info /home/apcuser/apps/alcatraz_cache/
+CMD . /home/apcuser/start_hazelcast.sh

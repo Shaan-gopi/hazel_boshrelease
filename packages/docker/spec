@@ -1,0 +1,13 @@
+---
+name: docker
+dependencies: []
+files:
+  - docker/aufs-tools_20120411-3_amd64.deb
+  - docker/autoconf-2.69.tar.gz
+  - docker/bridge-utils-1.5.tar.gz
+  - docker/docker-1.13.1.tgz
+  - docker/pip-kazoo.tgz
+  - docker/sdet_conf.tar
+  - docker/alcatraz_cache*.zip
+  - docker/currentbuild.sh
+  - docker/alcatrazconfig*amd64.deb
