@@ -65,14 +65,11 @@ case $1 in
 
 	build_version=`cat ${CONTAINERS_CONF_DIR}/${container_name}/build_version.info`
 
-	echo "product.version="$build_version >> ${CONTAINERS_CONF_DIR}/${container_name}/product-build.info
-
 	zkhost=`echo $zkaddr | cut -d ":" -f1`
 	zkport=`echo $zkaddr | cut -d ":" -f2`
 	echo $zkhost >> ${CONTAINERS_CONF_DIR}/${container_name}/hostfile
 	echo $zkport >> ${CONTAINERS_CONF_DIR}/${container_name}/portfile
 	
-
         sudo chmod 777 /tmp/alcatraz_config/*
 	cd /tmp/alcatraz_config
 

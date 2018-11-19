@@ -9,9 +9,8 @@ templates:
   bin/job_properties.sh.erb: bin/job_properties.sh
   config/hazelcast1/Dockerfile: config/hazelcast1/Dockerfile
   config/hazelcast1/zookeeper.cfg.erb: config/hazelcast1/zookeeper.cfg
-  config/hazelcast1/start_hazelcast.sh: config/hazelcast1/start_hazelcast.sh
-  config/hazelcast1/product-build.info: config/hazelcast1/product-build.info
   config/hazelcast1/hazel.cfg.erb: config/hazelcast1/hazel.cfg
+  config/hazelcast1/server.sh: config/hazelcast1/server.sh
 
 consumes:
 - name: peers
