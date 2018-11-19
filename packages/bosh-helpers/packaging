@@ -4,5 +4,3 @@ set -u # report the usage of uninitialized variables
 # Copy Bosh Helpers package
 echo "Copying Bosh Helpers..."
 cp -a ${BOSH_COMPILE_TARGET}/bosh-helpers/* ${BOSH_INSTALL_TARGET}/
-echo "Copying dockerfiles needed for alcatraz images"
-cp ${BOSH_COMPILE_TARGET}/dockerfiles/* ${BOSH_INSTALL_TARGET}/

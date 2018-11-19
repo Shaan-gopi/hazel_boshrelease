@@ -77,6 +77,4 @@ cp -r * ${BOSH_INSTALL_TARGET}/pip-kazoo/
 echo "copying alcatraz hazelcast build..."
 mkdir -p ${BOSH_INSTALL_TARGET}/alcatraz_cache_build
 cp  ${BOSH_COMPILE_TARGET}/docker/alcatraz_cache_*.zip ${BOSH_INSTALL_TARGET}/alcatraz_cache_build/
-cp ${BOSH_COMPILE_TARGET}/docker/sdet_conf.tar ${BOSH_INSTALL_TARGET}/alcatraz_cache_build/
-cp ${BOSH_COMPILE_TARGET}/docker/currentbuild.sh ${BOSH_INSTALL_TARGET}/alcatraz_cache_build/
 cp ${BOSH_COMPILE_TARGET}/docker/alcatrazconfig*amd64.deb ${BOSH_INSTALL_TARGET}/alcatraz_cache_build/

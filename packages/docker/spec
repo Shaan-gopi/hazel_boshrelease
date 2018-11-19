@@ -7,7 +7,5 @@ files:
   - docker/bridge-utils-1.5.tar.gz
   - docker/docker-1.13.1.tgz
   - docker/pip-kazoo.tgz
-  - docker/sdet_conf.tar
   - docker/alcatraz_cache*.zip
-  - docker/currentbuild.sh
   - docker/alcatrazconfig*amd64.deb
