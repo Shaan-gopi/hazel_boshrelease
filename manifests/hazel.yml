@@ -27,7 +27,7 @@ instance_groups:
     properties:
       containers:
         - name: hazelcast1
-          image: "fab-ci-remote-agent:443/hazelcast1"
+          image: "hazelcast1"
           memory: "512m"
           env_vars:
             - "EXAMPLE_VAR=1"
@@ -60,4 +60,4 @@ update:
 
 releases:
 - name: hazel
-  version: 0+dev.41
+  version: 0+dev.46
